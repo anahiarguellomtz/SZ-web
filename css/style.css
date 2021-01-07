@@ -1,0 +1,245 @@
+@font-face {
+    font-family: IBMPlexSansRegular;
+    src:url('../fonts/IBMPlexSans-Regular.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: IBMPlexSansBold;
+    src:url('../fonts/IBMPlexSans-SemiBold.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: IBMPlexSansBoldItalic;
+    src:url('../fonts/IBMPlexSans-BoldItalic.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: IBMPlexSansItalic;
+    src:url('../fonts/IBMPlexSans-Italic.ttf') format('truetype');
+  }
+
+  div .img{
+    width: 70%;
+    max-width: 750px;
+    min-width: 300px;
+    margin: 0 auto;
+  }
+
+  img .img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div .section_4_img{
+    width: 90%;
+    max-width: 200px;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    }
+  img .section_4_img {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  
+  div .section_6_img{
+    width: 96%;
+    max-width: 200px;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  
+  img .section_6_img {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .section_2 h1 {
+    color: #05587C;
+    font-family: IBMPlexSansItalic;
+    font-size: 7vmin;
+    margin-bottom: 4%;
+  }
+
+  .section_4 h2 {
+    color: #05587C;
+    margin-left: 20%;
+    font-family: IBMPlexSansItalic;
+    font-size: 4vmin;
+    font-family: IBMPlexSansRegular;
+  }
+
+
+#text-skills-paragrafh{
+    /* UI Properties */
+    text-align: center;
+    font-family: IBMPlexSansRegular;
+    font-size: 130%;
+    letter-spacing: 0px;
+    color: #05587C;
+    opacity: 1;
+    margin:auto;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.btn-skills{
+    text-align: center;
+    white-space: nowrap;
+
+    border-radius: 50px;
+    cursor: pointer;
+    z-index: 5;
+    transition: all .4s ease-in-out;
+    border-color: #05587C;
+    background:#F4BB2B 0% 0% no-repeat padding-box;
+    overflow: hidden;
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    font: 28px IBMPlexSansBold;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-top: 4%;
+    display:block;
+    margin-right:auto;
+    margin-left: auto;
+}
+
+  .section_4 .services h1 {
+    color: #171F38;
+    font-family: IBMPlexSansItalic;
+    font-size: 6vmin;
+  }
+
+  .section_5 .services h1 {
+    color: #171F38;
+    font-family: IBMPlexSansItalic;
+    font-size: 6vmin;
+  }
+  
+  .section{
+    background-image: url('img/fondo2.svg');
+    background: rgb(88,177,192);
+    background: linear-gradient(0deg, rgba(88,177,192,1) 35%, rgba(151,210,217,0) 100%);
+  }
+
+  .section_6 {
+    background: rgb(151,210,217);
+    background: linear-gradient(0deg, rgba(151,210,217,1) 45%, rgba(151,210,217,0.8141631652661064) 100%);
+  }
+  
+  .section_6 .footer {
+    padding: 5vmin;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .section_6 .footer label {
+    font-size: 1.8em;
+    color: whitesmoke;
+  }
+  
+  .section_6 .footer ul li {
+    color: #171F38;
+    font-size: 1em;
+    list-style:none;
+    font-family: IBMPlexSansRegular;
+  }
+  
+  #section_6_p{
+    text-align: center;
+    font-family: IBMPlexSansRegular;
+    font-size: 70%;
+    letter-spacing: 0px;
+    color: #171F38;
+  }
+
+  #text-waitu{
+    position: relative;
+    justify-content: right;
+    font-family: IBMPlexSansRegular;
+    font-size: 200%;
+    letter-spacing: 0px;
+    color: #05587C;
+    opacity: 1;
+    padding-top: 10%;
+  }
+
+  
+  @media only screen and (max-width: 425px) {
+    .services {
+      margin-top: 20vmin;
+      font-size: 10px;
+    }
+    .section_4 .services h1 {
+        color: #171F38;
+        font-family: IBMPlexSansItalic;
+        font-size: 30px;
+      }
+      .section_4 h2 {
+        color: #05587C;
+        margin-left: 20%;
+        font-family: IBMPlexSansItalic;
+        font-size: 25px;
+        font-family: IBMPlexSansRegular;
+      }
+
+      #btn-skills{
+        text-align: center;
+        white-space: nowrap;
+    
+        border-radius: 50px;
+        cursor: pointer;
+        z-index: 5;
+        transition: all .4s ease-in-out;
+        border-color: #05587C;
+        background:#F4BB2B 0% 0% no-repeat padding-box;
+        overflow: hidden;
+        width: 200px;
+        height: 35px;
+        text-align: center;
+        font: 20px IBMPlexSansBold;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+        margin-top: 4%;
+        display:block;
+        margin-right:auto;
+        margin-left: auto;
+    }
+
+    div .section_4_img{
+        width: 70%;
+        max-width: 200px;
+        margin: 0 auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .section_2 h1 {
+        color: #05587C;
+        font-family: IBMPlexSansItalic;
+        font-size: 30px;
+        margin-bottom: 4%;
+    }
+
+    .section_5{
+        margin-top: 20vmin;
+    }
+    .section_5 .services h1 {
+        color: #171F38;
+        font-family: IBMPlexSansItalic;
+        font-size: 30px;
+      }
+    .footer{
+        margin-top: 10vmin;
+    }
+  }

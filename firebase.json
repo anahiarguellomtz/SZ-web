@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "SHELLZERO_WebPage",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
