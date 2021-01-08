@@ -177,7 +177,7 @@
     line-height: normal;
   }
   .tyc {
-    padding: 4vmin;
+    padding: 1vmin 2vmin;
   }
 
   #text-waitu{
@@ -190,7 +190,20 @@
     opacity: 1;
     
   }
-
+  .menu-footer {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+  }
+  .menu-footer li {
+    display: inline;
+    padding: 20px;
+  }
+.redes-logo  {
+  padding: 3vmin;
+}
   
   @media only screen and (max-width: 425px) {
     .services {
