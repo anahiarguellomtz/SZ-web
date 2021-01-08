@@ -1,3 +1,8 @@
+
+  body{
+    background: linear-gradient(180deg, rgba(23,31,56,1) 0%, rgba(10,70,102,1) 17%, rgba(5,88,124,1) 35%, rgba(88,177,192,1) 50%, rgba(151,210,217,1) 67%, rgba(224,230,234,1) 80%, rgba(151,210,217,1) 100%);
+  }
+
 @font-face {
     font-family: IBMPlexSansRegular;
     src:url('../fonts/IBMPlexSans-Regular.ttf') format('truetype');
@@ -23,9 +28,12 @@
     width: 70%;
     max-width: 750px;
     min-width: 300px;
-    margin: 0 auto;
   }
-
+.second-section {
+  background-image: url('../img/fondo-2s.png');
+  background-size: cover;
+  padding-bottom: 1vmin;
+}
   img .img {
     width: 100%;
     height: auto;
@@ -79,6 +87,13 @@
   }
 
 
+
+.btn:hover svg rect {
+    stroke-width: 4;
+    stroke-dasharray: 196, 543;
+    stroke-dashoffset: 437;
+}
+
 #text-skills-paragrafh{
     /* UI Properties */
     text-align: center;
@@ -114,6 +129,9 @@
   border: solid 2px #F4BB2B;
 }
 
+.services {
+  margin: 15vmin 0;
+}
   .section_4 .services h1 {
     color: #171F38;
     font-family: IBMPlexSansBoldItalic;
@@ -128,15 +146,9 @@
     font-size: 6vmin;
   }
   
-  .section{
-    background-image: url('img/fondo2.svg');
-    background: rgb(88,177,192);
-    background: linear-gradient(0deg, rgba(88,177,192,1) 35%, rgba(151,210,217,0) 100%);
-  }
 
   .section_6 {
-    background: rgb(151,210,217);
-    background: linear-gradient(0deg, rgba(151,210,217,1) 45%, rgba(151,210,217,0.8141631652661064) 100%);
+    background: linear-gradient(0deg, rgba(88,177,192,0.8883928571428571) 0%, rgba(151,210,217,1) 31%, rgba(151,210,217,1) 100%);
   }
   
   .section_6 .footer {
@@ -157,23 +169,26 @@
     font-family: IBMPlexSansRegular;
   }
   
-  #section_6_p{
+  #section_6_span{
     text-align: center;
     font-family: IBMPlexSansRegular;
-    font-size: 70%;
-    letter-spacing: 0px;
+    font-size: 9px;
     color: #171F38;
+    line-height: normal;
+  }
+  .tyc {
+    padding: 4vmin;
   }
 
   #text-waitu{
     position: relative;
-    justify-content: right;
+    text-align: right;
     font-family: IBMPlexSansRegular;
-    font-size: 200%;
+    font-size: 1.5rem;
     letter-spacing: 0px;
     color: #05587C;
     opacity: 1;
-    padding-top: 10%;
+    
   }
 
   
