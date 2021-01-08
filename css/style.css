@@ -3,18 +3,22 @@
     src:url('../fonts/IBMPlexSans-Regular.ttf') format('truetype');
   }
   @font-face {
-    font-family: IBMPlexSansBold;
+    font-family: IBMPlexSansSemiBold;
     src:url('../fonts/IBMPlexSans-SemiBold.ttf') format('truetype');
+    font-style: italic;
   }
   @font-face {
     font-family: IBMPlexSansBoldItalic;
     src:url('../fonts/IBMPlexSans-BoldItalic.ttf') format('truetype');
+    font-style: italic;
   }
   @font-face {
     font-family: IBMPlexSansItalic;
     src:url('../fonts/IBMPlexSans-Italic.ttf') format('truetype');
   }
-
+#text-skills-skill {
+  font-family: IBMPlexSansBoldItalic;
+}
   div .img{
     width: 70%;
     max-width: 750px;
@@ -70,9 +74,8 @@
   .section_4 h2 {
     color: #05587C;
     margin-left: 20%;
-    font-family: IBMPlexSansItalic;
+    font-family: IBMPlexSansBoldItalic;
     font-size: 4vmin;
-    font-family: IBMPlexSansRegular;
   }
 
 
@@ -85,43 +88,34 @@
     color: #05587C;
     opacity: 1;
     margin:auto;
-    padding-top: 5%;
     text-align: center;
 }
 
 .btn-skills{
-    text-align: center;
-    white-space: nowrap;
-
+    font-family: IBMPlexSansRegular;
     border-radius: 50px;
     cursor: pointer;
     z-index: 5;
-    transition: all .4s ease-in-out;
-    border-color: #05587C;
+    border-color: #58B1C0;
     background:#F4BB2B 0% 0% no-repeat padding-box;
-    overflow: hidden;
-    width: 300px;
-    height: 60px;
-    text-align: center;
-    font: 28px IBMPlexSansBold;
-    letter-spacing: 0px;
+    font-size: 28px;
     color: #FFFFFF;
     opacity: 1;
-    margin-top: 4%;
-    display:block;
-    margin-right:auto;
-    margin-left: auto;
+    margin-top: 4vmin;
+    padding: 1.5vmin 0;
 }
 
   .section_4 .services h1 {
     color: #171F38;
-    font-family: IBMPlexSansItalic;
+    font-family: IBMPlexSansBoldItalic;
+    font-style: italic;
     font-size: 6vmin;
   }
 
   .section_5 .services h1 {
     color: #171F38;
-    font-family: IBMPlexSansItalic;
+    font-family: IBMPlexSansBoldItalic;
+    font-style: italic;
     font-size: 6vmin;
   }
   
@@ -195,12 +189,12 @@
       #btn-skills{
         text-align: center;
         white-space: nowrap;
-    
+        font-family: ;
         border-radius: 50px;
         cursor: pointer;
         z-index: 5;
         transition: all .4s ease-in-out;
-        border-color: #05587C;
+        border-color: #58B1C0;
         background:#F4BB2B 0% 0% no-repeat padding-box;
         overflow: hidden;
         width: 200px;
