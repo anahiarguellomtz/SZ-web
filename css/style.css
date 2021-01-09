@@ -113,7 +113,7 @@
     z-index: 5;
     border: solid 2px #58B1C0;
     background:#F4BB2B 0% 0% no-repeat padding-box;
-    font-size: 28px;
+    font-size: 1.5rem;
     color: #FFFFFF;
     opacity: 1;
     margin-top: 4vmin;
@@ -151,24 +151,6 @@
     background: linear-gradient(0deg, rgba(88,177,192,0.8883928571428571) 0%, rgba(151,210,217,1) 31%, rgba(151,210,217,1) 100%);
   }
   
-  .section_6 .footer {
-    padding: 5vmin;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-  }
-  .section_6 .footer label {
-    font-size: 1.8em;
-    color: whitesmoke;
-  }
-  
-  .section_6 .footer ul li {
-    color: #171F38;
-    font-size: 1em;
-    list-style:none;
-    font-family: IBMPlexSansRegular;
-  }
-  
   #section_6_span{
     text-align: center;
     font-family: IBMPlexSansRegular;
@@ -199,7 +181,9 @@
   }
   .menu-footer li {
     display: inline;
-    padding: 20px;
+    padding: 10px;
+    width: auto;
+    font-size: 1rem;
   }
 .redes-logo  {
   padding: 3vmin;
@@ -272,5 +256,73 @@
       }
     .footer{
         margin-top: 10vmin;
+    }
+  }
+  @media only screen and (max-width: 1024px) {
+    
+    .menu-footer li {
+      font-size: 0.6rem;
+      
+    }
+    .redes-logo {
+      width: 50px;
+    }
+    .logo-shell {
+      width: 60%;
+      padding-left: 5vmin;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    
+    .menu-footer li {
+      font-size: 0.6rem;
+      
+    }
+    .col-lg-3.col-md-12.col-sm-12.icon-logos {
+      text-align: center;
+    }
+    .redes-logo {
+      width: 60px;
+
+    }
+    .logo-shell {
+      width: 30%;
+      padding: 2vmin;
+    }
+    .content-logo-footer {
+      text-align: center;
+    }
+    #text-waitu {
+      font-size: 1rem;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .menu-footer {
+      padding: 0;
+    }
+    .menu-footer li {
+      font-size: 0.6rem;
+      
+    }
+    .col-lg-3.col-md-12.col-sm-12.icon-logos {
+      text-align: center;
+    }
+    .redes-logo {
+      width: 40px;
+
+    }
+    .logo-shell {
+      width: 30%;
+      padding: 2vmin;
+    }
+    .content-logo-footer {
+      text-align: center;
+    }
+    #text-waitu {
+      font-size: 1rem;
+    }
+    #section_6_span {
+      font-size: 6px;
     }
   }
