@@ -23,6 +23,7 @@
   }
 #text-skills-skill {
   font-family: IBMPlexSansBoldItalic;
+  color: #05587C;
 }
   div .img{
     width: 70%;
@@ -80,8 +81,7 @@
   }
 
   .section_4 h2 {
-    color: #05587C;
-    margin-left: 20%;
+    color: #d2c470;
     font-family: IBMPlexSansBoldItalic;
     font-size: 4vmin;
   }
@@ -245,8 +245,7 @@ a:hover {
         font-size: 30px;
       }
       .section_4 h2 {
-        color: #05587C;
-        margin-left: 20%;
+        color: #d2c470;
         font-family: IBMPlexSansItalic;
         font-size: 25px;
         font-family: IBMPlexSansRegular;
@@ -301,6 +300,12 @@ a:hover {
       }
     .footer{
         margin-top: 10vmin;
+    }
+  }@media only screen and (max-width: 1400px) {
+    
+    .logo-shell {
+      width: 60%;
+      padding-left: 5vmin;
     }
   }
   @media only screen and (max-width: 1024px) {
