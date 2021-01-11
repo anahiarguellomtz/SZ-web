@@ -106,28 +106,7 @@
     text-align: center;
 }
 
-.btn-skills{
-    font-family: IBMPlexSansRegular;
-    border-radius: 50px;
-    cursor: pointer;
-    z-index: 5;
-    border: solid 2px #58B1C0;
-    background:#F4BB2B 0% 0% no-repeat padding-box;
-    font-size: 1.5rem;
-    color: #FFFFFF;
-    opacity: 1;
-    margin-top: 4vmin;
-    padding: 1.5vmin 0;
-    -webkit-box-shadow: 0px 3px 5px 0px rgba(255, 255, 255, 0.40);
-    -moz-box-shadow: 0px 3px 5px 0px rgba(255,255,255,0.40);
-    box-shadow: 0px 3px 5px 0px rgba(255,255,255,0.40);
-    transition: 0.3s;
-}
-.btn-skills:hover {
-  transform: translate(0, -5px);
-  background-color: #05587c;
-  border: solid 2px #F4BB2B;
-}
+
 
 .services {
   margin: 15vmin 0;
@@ -187,6 +166,72 @@
   }
 .redes-logo  {
   padding: 3vmin;
+}
+/*---BOTON---*/
+
+a {
+	text-decoration: none;
+	color: #171F38;
+}
+a:hover {
+  text-decoration: none !important;
+}
+
+.cta {
+	position: relative;
+	margin: auto;
+	padding: 19px 22px;
+	transition: all .2s ease;
+}
+
+.cta:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	border-radius: 28px;
+	background: #f4bb2ba4;
+	width: 56px;
+	height: 56px;
+	transition: all .3s ease;
+}
+
+.cta span {
+	position: relative;
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: 900;
+	letter-spacing: .25em;
+	text-transform: uppercase;
+  vertical-align: middle;
+  color: #171F38;
+}
+
+.cta svg {
+	position: relative;
+	top: 0;
+	margin-left: 10px;
+	fill: none;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke: #111;
+	stroke-width: 2;
+	transform: translateX(-5px);
+	transition: all .3s ease;
+}
+
+.cta:hover:before {
+	width: 100%;
+	background: #F4BB2B;
+}
+
+.cta:hover svg {
+	transform: translateX(0);
+}
+
+.cta:active {
+	transform: scale(0.96);
 }
   
   @media only screen and (max-width: 425px) {
