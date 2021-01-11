@@ -144,6 +144,7 @@
     font-family: IBMPlexSansBoldItalic;
     font-style: italic;
     font-size: 4vmin;
+    margin-left: 40%;
   }
   
 
@@ -401,3 +402,5 @@ nav svg{
       font-size: 1.3rem;
     }
   }
+
+ 
