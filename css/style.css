@@ -1,6 +1,6 @@
 
   body{
-    background: linear-gradient(180deg, rgba(23,31,56,1) 0%, rgba(10,70,102,1) 17%, rgba(5,88,124,1) 35%, rgba(88,177,192,1) 50%, rgba(151,210,217,1) 67%, rgba(224,230,234,1) 80%, rgba(151,210,217,1) 100%);
+    background: linear-gradient(0deg, rgba(88,177,192,1) 0%, rgba(151,210,217,1) 19%, rgba(224,230,234,1) 48%, rgba(201,221,227,1) 63%, rgba(98,183,196,1) 72%, rgba(93,180,194,1) 74%, rgba(88,177,192,1) 78%, rgba(5,88,124,1) 85%, rgba(10,70,102,1) 90%, rgba(28,62,89,1) 93%, rgba(17,48,77,1) 95%, rgba(19,41,69,1) 98%, rgba(23,31,56,1) 100%);
   }
 
 @font-face {
@@ -65,6 +65,13 @@
     display: block;
   }
   
+  div .section_3_img {
+    width: 80%;
+    height: auto;
+    margin-left: 25%;
+    display: block;
+  }
+
   img .section_6_img {
     width: 100%;
     height: auto;
@@ -124,6 +131,20 @@
     font-style: italic;
     font-size: 6vmin;
   }
+
+  .section_3 .services h1 {
+    color: #fff;
+    font-family: IBMPlexSansBoldItalic;
+    font-style: italic;
+    font-size: 6vmin;
+  }
+
+  .section_3 .services h2 {
+    color: #171F38;
+    font-family: IBMPlexSansBoldItalic;
+    font-style: italic;
+    font-size: 4vmin;
+  }
   
 
   .section_6 {
@@ -142,6 +163,7 @@
   }
 
   #text-waitu{
+    margin-top: 10%;
     position: relative;
     text-align: right;
     font-family: IBMPlexSansRegular;
@@ -151,6 +173,19 @@
     opacity: 1;
     
   }
+
+  #text-soluciones{
+    margin-top: 10%;
+    position: relative;
+    text-align: center;
+    font-family: IBMPlexSansRegular;
+    font-size: 1.5rem;
+    letter-spacing: 0px;
+    color: #05587C;
+    opacity: 1;
+    
+  }
+
   .menu-footer {
     list-style: none;
     text-align: center;
@@ -221,6 +256,17 @@ a:hover {
 	transition: all .3s ease;
 }
 
+nav img{
+  width: 200px; 
+  height: auto;
+  margin-left: 2%; 
+  margin-top: 2%;
+}
+
+nav svg{
+  margin-left: 75%; 
+}
+
 .cta:hover:before {
 	width: 100%;
 	background: #F4BB2B;
@@ -250,30 +296,6 @@ a:hover {
         font-size: 25px;
         font-family: IBMPlexSansRegular;
       }
-
-      #btn-skills{
-        text-align: center;
-        white-space: nowrap;
-        font-family: ;
-        border-radius: 50px;
-        cursor: pointer;
-        z-index: 5;
-        transition: all .4s ease-in-out;
-        border-color: #58B1C0;
-        background:#F4BB2B 0% 0% no-repeat padding-box;
-        overflow: hidden;
-        width: 200px;
-        height: 35px;
-        text-align: center;
-        font: 20px IBMPlexSansBold;
-        letter-spacing: 0px;
-        color: #FFFFFF;
-        opacity: 1;
-        margin-top: 4%;
-        display:block;
-        margin-right:auto;
-        margin-left: auto;
-    }
 
     div .section_4_img{
         width: 70%;
