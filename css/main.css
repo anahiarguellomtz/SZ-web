@@ -1,0 +1,148 @@
+@font-face {
+    font-family: IBMPlexSansRegular;
+    src:url('../fonts/IBMPlexSans-Regular.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: IBMPlexSansSemiBold;
+    src:url('../fonts/IBMPlexSans-SemiBold.ttf') format('truetype');
+    font-style: italic;
+  }
+  @font-face {
+    font-family: IBMPlexSansBoldItalic;
+    src:url('../fonts/IBMPlexSans-BoldItalic.ttf') format('truetype');
+    font-style: italic;
+  }
+  @font-face {
+    font-family: IBMPlexSansItalic;
+    src:url('../fonts/IBMPlexSans-Italic.ttf') format('truetype');
+  }
+  body {
+      font-size: 12px;
+  }
+  h1, h2, h3 {
+      color: #171F38;
+  }
+  p {
+      color: #05587C;
+      font-size: 1.3em;
+  }
+
+  .menu-footer {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+  }
+  .menu-footer li {
+    display: inline;
+    padding: 10px;
+    width: auto;
+    font-size: 1rem;
+  }
+
+.redes-logo  {
+    padding: 3vmin;
+  }
+#tyc-footer {
+    font-size: 0.5em;
+    margin-bottom: 0;
+    padding: 2vmin;
+}
+
+.section_6 {
+    background: linear-gradient(0deg, rgba(88,177,192,0.8883928571428571) 0%, rgba(151,210,217,1) 31%, rgba(151,210,217,1) 100%);
+  }
+
+div .section_6_img{
+width: 96%;
+max-width: 200px;
+margin: 0 auto;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+a {
+text-decoration: none;
+	color: #171F38;
+}
+a:hover {
+  text-decoration: none !important;
+}
+
+.cta {
+	position: relative;
+	margin: auto;
+	padding: 19px 22px;
+	transition: all .2s ease;
+}
+
+.cta:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	border-radius: 28px;
+	background: #f4bb2ba4;
+	width: 56px;
+	height: 56px;
+	transition: all .3s ease;
+}
+
+.cta span {
+	position: relative;
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: 900;
+	letter-spacing: .25em;
+	text-transform: uppercase;
+  vertical-align: middle;
+  color: #171F38;
+}
+
+.cta svg {
+	position: relative;
+	top: 0;
+	margin-left: 10px;
+	fill: none;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke: #111;
+	stroke-width: 2;
+	transform: translateX(-5px);
+	transition: all .3s ease;
+}
+
+.btn:hover svg rect {
+    stroke-width: 4;
+    stroke-dasharray: 196, 543;
+    stroke-dashoffset: 437;
+}
+
+
+nav img{
+  width: 200px; 
+  height: auto;
+  margin-left: 2%; 
+  margin-top: 2%;
+}
+
+nav svg{
+  margin-left: 75%; 
+}
+
+.cta:hover:before {
+	width: 100%;
+	background: #F4BB2B;
+}
+
+.cta:hover svg {
+	transform: translateX(0);
+}
+
+.cta:active {
+	transform: scale(0.96);
+}
+  

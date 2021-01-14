@@ -1,0 +1,13 @@
+body {
+    background-image: url("../img/fondo-nosotros.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.picture-team {
+    margin-bottom: 10vmin;
+}
+.title-container {
+    background-color: rgba(255, 255, 255, 0.233);
+    padding: 4vmin;
+    margin-left: 6vmin;
+}
