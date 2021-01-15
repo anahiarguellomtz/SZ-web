@@ -11,3 +11,6 @@ body {
     padding: 4vmin;
     margin-left: 6vmin;
 }
+.pt-2 {
+    animation-delay: 4s;
+}
