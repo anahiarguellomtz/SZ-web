@@ -145,4 +145,92 @@ nav svg{
 .cta:active {
 	transform: scale(0.96);
 }
+
+
+
+    /* Back to top button */
+    .back-to-top {
+      position: fixed;
+      display: none;
+      background: rgba(0, 0, 0, 0.2);
+      color: #fff;
+      padding: 6px 12px 9px 12px;
+      font-size: 16px;
+      border-radius: 2px;
+      right: 15px;
+      bottom: 15px;
+      transition: background 0.5s;
+  }
+
+  @media (max-width: 768px) {
+      .back-to-top {
+          bottom: 15px;
+      }
+  }
+
+  .back-to-top:focus {
+      background: rgba(0, 0, 0, 0.2);
+      color: #fff;
+      outline: none;
+  }
+
+  .back-to-top:hover {
+      background: #0455a4;
+      color: #fff;
+  }
+
+  /*--------------------------------------------------------------
+  # Header
+  --------------------------------------------------------------*/
+  #header {
+      padding: 30px 0;
+      height: 92px;
+      position: fixed;
+      left: 0;
+      top: 0;
+      right: 0;
+      transition: all 0.5s;
+      z-index: 997;
+  }
+
+  #header #logo {
+      float: left;
+  }
+
+  #header #logo h1 {
+      font-size: 36px;
+      margin: 0;
+      padding: 6px 0;
+      line-height: 1;
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+  }
+
+  #header #logo h1 a, #header #logo h1 a:hover {
+      color: #fff;
+  }
+
+  #header #logo img {
+      padding: 0;
+      margin-top:  -15px;
+      max-height: 55px;
+  }
+
+  @media (max-width: 768px) {
+      #header #logo h1 {
+          font-size: 26px;
+      }
+      #header #logo img {
+          max-height: 40px;
+      }
+  }
+
+  #header.header-fixed {
+      background: #010c18;
+      padding: 25px 0;
+      height: 82px;
+      transition: all 0.5s;
+  }
   
