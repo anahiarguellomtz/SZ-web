@@ -12,30 +12,24 @@
   </head>
   <body style="margin: 0px!important;">
 
-    <<section class="section_1 container-fluid p-0">
-      <div class="d-flex flex-column">
-        <div>
-          <header id="header">
-            <nav>
-              <div id="logo" class="pull-left">  
-                <a href="https://shellzero.com.mx/" id="logo-sz"><img src="img/logo-sz-blue.png" alt="" title="" />
-                  </a>
-                  <a href="https://shellzero.com.mx/" id="logo-sz2" style="display:none"><img src="img/logo-sz.png" alt="" title="" />
-                  </a>
-                
-              </div>    
-              <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M7.94977 11.9498H39.9498" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M7.94977 23.9498H39.9498" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M7.94977 35.9498H39.9498" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>                
-            </nav>
-          </header>
+   <button type="button" id="mobile-nav-toggle"><i class="fa fa-bars"></i></button>
+   <header id="header" class="header-fixed">
+        <div class="container">
+            <div id="logo" class="pull-left">
+                <a href="index.html"><img src="img/logo-sz.png" alt="" title=""></a>
+            </div>
+            <nav id="nav-menu-container">
+                <ul class="nav-menu sf-js-enabled sf-arrows" style="touch-action: pan-y;">
+                    <li ><a href="index.html">Inicio</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="nosotros.html">Nosotros </a></li>
+                    <li><a class="menu-active" href="contacto.html">Contacto </a></li>
+                </ul>
+            </nav><!-- #nav-menu-container -->
         </div>
+    </header>
 
-    </section>
-
-    <section id="contact" style="padding-top: 5%; margin-bottom: 5%;">
+    <section id="contact" style="padding-top: 100px; margin-top: 50px;margin-bottom: 50px;">
       <div class="container">
           <div class="row">
               <div class="col-md-6">
@@ -65,7 +59,7 @@
                           <div class="form-group">
                               <textarea name="message" id="message" cols="30" rows="10" placeholder="Proyecto" class="form-control"></textarea>
                           </div>
-                          <div class="text-center" style="margin-top: 5%;">
+                          <div class="text-center" id="btnEnviar" style="margin-top: 5%;">
                             <a href="#" class="cta" onclick="sendForm()">
                               <span>Enviar</span>
                               <svg width="13px" height="10px" viewBox="0 0 13 10">
@@ -121,6 +115,7 @@
     <script src="js/contacto.js" charset="utf-8"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>   
     <script src="js/main.js"></script> 
+    <script src="js/formulario.js"></script> 
   </body>
 </html>
 

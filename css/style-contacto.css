@@ -1,9 +1,15 @@
 body{
 	background-image: url("../img/Contacto.gif");
-	background-size: 50%;
+	background-size: 70%;
 	background-repeat:no-repeat;
-	background-position: right;
+    background-position-x: right;
+    background-position-y: 20%;
 } 
+
+#name,#subject,#phone,#company,#email,#message{
+    opacity:50%;
+    border-color: lightblue;
+}
 
 .picture-team {
     margin-bottom: 10vmin;
@@ -15,4 +21,27 @@ body{
 }
 .pt-2 {
     animation-delay: 4s;
+}
+
+#header {
+    padding: 30px 0;
+    height: 92px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    transition: all 0.5s;
+    z-index: 997;
+    background-color: black;
+}
+
+@media only screen and (max-width: 600px) {
+    #btnEnviar{
+        padding-top: 30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    body{
+        background-size: 800px;
+    }
 }
