@@ -1,218 +1,238 @@
 @font-face {
-    font-family: IBMPlexSansRegular;
-    src:url('../fonts/IBMPlexSans-Regular.ttf') format('truetype');
-  }
-  @font-face {
-    font-family: IBMPlexSansSemiBold;
-    src:url('../fonts/IBMPlexSans-SemiBold.ttf') format('truetype');
-    font-style: italic;
-  }
-  @font-face {
-    font-family: IBMPlexSansBoldItalic;
-    src:url('../fonts/IBMPlexSans-BoldItalic.ttf') format('truetype');
-    font-style: italic;
-  }
-  @font-face {
-    font-family: IBMPlexSansItalic;
-    src:url('../fonts/IBMPlexSans-Italic.ttf') format('truetype');
-  }
-  body {
-      font-size: 12px;
-  }
-  h1, h2, h3 {
-      color: #171F38;
-  }
-  p {
-      color: #05587C;
-      font-size: 1.3em;
-  }
+  font-family: IBMPlexSansRegular;
+  src: url("../fonts/IBMPlexSans-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: IBMPlexSansSemiBold;
+  src: url("../fonts/IBMPlexSans-SemiBold.ttf") format("truetype");
+  font-style: italic;
+}
+@font-face {
+  font-family: IBMPlexSansBoldItalic;
+  src: url("../fonts/IBMPlexSans-BoldItalic.ttf") format("truetype");
+  font-style: italic;
+}
+@font-face {
+  font-family: IBMPlexSansItalic;
+  src: url("../fonts/IBMPlexSans-Italic.ttf") format("truetype");
+}
+body {
+  font-size: 12px;
+  margin: 0px;
+}
 
-  .menu-footer {
-    list-style: none;
-    text-align: center;
-    margin-bottom: 0;
-    display: flex;
-    align-items: center;
-  }
-  .menu-footer li {
-    display: inline;
-    padding: 10px;
-    width: auto;
-    font-size: 1rem;
-  }
+h1,
+h2,
+h3 {
+  color: #171f38;
+}
+p {
+  color: #05587c;
+  font-size: 1.3em;
+}
 
-.redes-logo  {
-    padding: 3vmin;
-  }
+.principal-title {
+  padding-top: 25%;
+}
+
+.menu-footer {
+  list-style: none;
+  text-align: center;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+}
+.menu-footer li {
+  display: inline;
+  padding: 10px;
+  width: auto;
+  font-size: 1rem;
+}
+
+.redes-logo {
+  padding: 3vmin;
+}
 #tyc-footer {
-    font-size: 0.5em;
-    margin-bottom: 0;
-    padding: 2vmin;
+  font-size: 0.5em;
+  margin-bottom: 0;
+  padding: 2vmin;
 }
 
 .section_6 {
-    background: linear-gradient(0deg, rgba(88,177,192,0.8883928571428571) 0%, rgba(151,210,217,1) 31%, rgba(151,210,217,1) 100%);
-  }
+  background: linear-gradient(
+    0deg,
+    rgba(88, 177, 192, 0.8883928571428571) 0%,
+    rgba(151, 210, 217, 1) 31%,
+    rgba(151, 210, 217, 1) 100%
+  );
+}
 
-div .section_6_img{
-width: 96%;
-max-width: 200px;
-margin: 0 auto;
-margin-left: auto;
-margin-right: auto;
-display: block;
+div .section_6_img {
+  width: 96%;
+  max-width: 200px;
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 a {
-text-decoration: none;
-	color: #171F38;
+  text-decoration: none;
+  color: #171f38;
 }
 a:hover {
   text-decoration: none !important;
 }
 
 .cta {
-	position: relative;
-	margin: auto;
-	padding: 19px 22px;
-	transition: all .2s ease;
+  position: relative;
+  margin: auto;
+  padding: 19px 22px;
+  transition: all 0.2s ease;
 }
 
 .cta:before {
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 0;
-	display: block;
-	border-radius: 28px;
-	background: #f4bb2ba4;
-	width: 56px;
-	height: 56px;
-	transition: all .3s ease;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 28px;
+  background: #f4bb2ba4;
+  width: 56px;
+  height: 56px;
+  transition: all 0.3s ease;
 }
 
 .cta span {
-	position: relative;
-	font-size: 16px;
-	line-height: 18px;
-	font-weight: 900;
-	letter-spacing: .25em;
-	text-transform: uppercase;
+  position: relative;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 900;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
   vertical-align: middle;
-  color: #171F38;
+  color: #171f38;
 }
 
 .cta svg {
-	position: relative;
-	top: 0;
-	margin-left: 10px;
-	fill: none;
-	stroke-linecap: round;
-	stroke-linejoin: round;
-	stroke: #111;
-	stroke-width: 2;
-	transform: translateX(-5px);
-	transition: all .3s ease;
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #111;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
 }
 
 .btn:hover svg rect {
-    stroke-width: 4;
-    stroke-dasharray: 196, 543;
-    stroke-dashoffset: 437;
+  stroke-width: 4;
+  stroke-dasharray: 196, 543;
+  stroke-dashoffset: 437;
 }
 
-
-nav img{
-  width: 200px; 
+nav img {
+  width: 200px;
   height: auto;
-  margin-left: 2%; 
+  margin-left: 2%;
   margin-top: 2%;
 }
 
 .cta:hover:before {
-	width: 100%;
-	background: #F4BB2B;
+  width: 100%;
+  background: #f4bb2b;
 }
 
 .cta:hover svg {
-	transform: translateX(0);
+  transform: translateX(0);
 }
 
 .cta:active {
-	transform: scale(0.96);
+  transform: scale(0.96);
 }
 
+/* Back to top button */
+.back-to-top {
+  position: fixed;
+  display: none;
+  background: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  padding: 6px 12px 9px 12px;
+  font-size: 16px;
+  border-radius: 2px;
+  right: 15px;
+  bottom: 15px;
+  transition: background 0.5s;
+}
 
-
-    /* Back to top button */
-    .back-to-top {
-      position: fixed;
-      display: none;
-      background: rgba(0, 0, 0, 0.2);
-      color: #fff;
-      padding: 6px 12px 9px 12px;
-      font-size: 16px;
-      border-radius: 2px;
-      right: 15px;
-      bottom: 15px;
-      transition: background 0.5s;
+@media (max-width: 768px) {
+  .back-to-top {
+    bottom: 15px;
   }
+}
 
-  @media (max-width: 768px) {
-      .back-to-top {
-          bottom: 15px;
-      }
-  }
+.back-to-top:focus {
+  background: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  outline: none;
+}
 
-  .back-to-top:focus {
-      background: rgba(0, 0, 0, 0.2);
-      color: #fff;
-      outline: none;
-  }
+.back-to-top:hover {
+  background: #0455a4;
+  color: #fff;
+}
 
-  .back-to-top:hover {
-      background: #0455a4;
-      color: #fff;
-  }
-
-  /*--------------------------------------------------------------
+/*--------------------------------------------------------------
   # Header
   --------------------------------------------------------------*/
-  #header {
-      padding: 30px 0;
-      height: 92px;
-      position: fixed;
-      left: 0;
-      top: 0;
-      right: 0;
-      transition: all 0.5s;
-      z-index: 997;
-  }
+#header {
+  padding: 30px 0;
+  height: 92px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  transition: all 0.5s;
+  z-index: 997;
+}
 
-  #header #logo {
-      float: left;
-  }
+#header #logo {
+  float: left;
+}
 
+#header #logo h1 {
+  font-size: 36px;
+  margin: 0;
+  padding: 6px 0;
+  line-height: 1;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+#header #logo h1 a,
+#header #logo h1 a:hover {
+  color: #fff;
+}
+
+#header #logo img {
+  padding: 0;
+  margin-top: -15px;
+  max-height: 55px;
+}
+
+@media (max-width: 768px) {
   #header #logo h1 {
-      font-size: 36px;
-      margin: 0;
-      padding: 6px 0;
-      line-height: 1;
-      font-family: "Poppins", sans-serif;
-      font-weight: 700;
-      letter-spacing: 3px;
-      text-transform: uppercase;
+    font-size: 26px;
   }
-
-  #header #logo h1 a, #header #logo h1 a:hover {
-      color: #fff;
-  }
-
   #header #logo img {
-      padding: 0;
-      margin-top:  -15px;
-      max-height: 55px;
+    max-height: 40px;
   }
+}
 
   @media (max-width: 768px) {
       #header #logo h1 {
