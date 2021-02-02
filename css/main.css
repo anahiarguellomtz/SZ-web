@@ -249,7 +249,8 @@ nav img {
   }
 
   #header.header-fixed {
-      background: #010c18;
+    background: rgb(45,143,255);
+    background: linear-gradient(168deg, rgba(45,143,255,0.9794292717086834) 67%, rgba(193,229,255,1) 99%);
       padding: 25px 0;
       height: 82px;
       transition: all 0.5s;
