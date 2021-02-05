@@ -1,119 +1,145 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>ShellZero - Contacto</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/style-contacto.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-   
-  </head>
-  <body style="margin: 0px!important;">
 
-   <button type="button" id="mobile-nav-toggle"><i class="fa fa-bars"></i></button>
-   <header id="header" class="">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>ShellZero - Contacto</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style-contacto.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body style="margin: 0px!important;">
+
+  <label for="active" id="mobile-nav-toggle"><i class="fa fa-bars"></i></label>
+  </head>
+  <label for="active" id="mobile-nav-toggle"><i class="fa fa-bars"></i></label>
+  <header id="header">
     <div class="container">
-        <div id="logo" class="pull-left">
-            <a href="index.html"><img src="img/logo-sz.png"></a>
-        </div>
-        <nav id="nav-menu-container">
-            <ul class="nav-menu sf-js-enabled sf-arrows" style="touch-action: pan-y;">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="#services">Servicios</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li class="menu-active"><a href="contacto.html">Contacto </a></li>
-            </ul>
-        </nav>
-    </div>
+      <div id="logo" class="pull-left">
+        <a href="index.html"><img src="img/logo-sz.png"></a>
+      </div>
+      <nav id="nav-menu-container">
+        <ul class="nav-menu sf-js-enabled sf-arrows" style="touch-action: pan-y;">
+          <li class="menu-active"><a href="index.html">Inicio</a></li>
+          <li><a href="#services">Servicios</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="contacto.html">Contacto </a></li>
+        </ul>
+      </nav>
+
+      <input type="checkbox" id="active">
+      <div class="wrapper">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="#services">Servicios</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="contacto.html">Contacto </a></li>
+        </ul>
+      </div>
   </header>
 
-    <section id="contact" style="padding-top: 100px; margin-top: 50px;margin-bottom: 50px;">
-      <div class="container">
-          <div class="row">
+  <section id="contact" style="padding-top: 100px; margin-top: 50px;margin-bottom: 50px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <form>
+            <div class="row">
               <div class="col-md-6">
-                  <form>
-                      <div class="row">
-                        <div class="col-md-6">
-                          <div class="form-group">
-                              <input name="name" id="name" type="text" class="form-control" placeholder="Nombre">
-                          </div>
-                        </div>
-                      <div class="col-md-6">
-                        <div class="form-group">
-                          <input name="name" id="phone" type="text" class="form-control" placeholder="Telefono">
-                      </div>
-                      </div>
-                      </div>
+                <div class="form-group">
+                  <input name="name" id="name" type="text" class="form-control" placeholder="Nombre">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input name="name" id="phone" type="text" class="form-control" placeholder="Telefono">
+                </div>
+              </div>
+            </div>
 
-                          <div class="form-group">
-                              <input name="subject" id="subject" type="text" class="form-control" placeholder="Asunto">
-                          </div>
-                          <div class="form-group">
-                              <input name="company" id="company" type="text" class="form-control" placeholder="Compañía">
-                          </div>
-                          <div class="form-group">
-                              <input name="email" id="email" type="text" class="form-control" placeholder="Email">
-                          </div>
-                          <div class="form-group">
-                              <textarea name="message" id="message" cols="30" rows="10" placeholder="Proyecto" class="form-control"></textarea>
-                          </div>
-                          <div class="text-center" id="btnEnviar" style="margin-top: 5%;">
-                            <a href="#" class="cta" onclick="sendForm()">
-                              <span>Enviar</span>
-                              <svg width="13px" height="10px" viewBox="0 0 13 10">
-                                <path d="M1,5 L11,5"></path>
-                                <polyline points="8 1 12 5 8 9"></polyline>
-                              </svg>
-                            </a>
-                          </div>
-                  </form>
-              </div>
-              <div class="col-md-6">
-                <p>
-                  Queremos saber de tu proyecto, envíanos un mensaje contándonos que tienes pensado y pronto recibirás nuestra respuesta con soluciones que te ayudarán a potenciar tus ideas al máximo.
-                </p>
-              </div>
-          </div>
+            <div class="form-group">
+              <input name="subject" id="subject" type="text" class="form-control" placeholder="Asunto">
+            </div>
+            <div class="form-group">
+              <input name="company" id="company" type="text" class="form-control" placeholder="Compañía">
+            </div>
+            <div class="form-group">
+              <input name="email" id="email" type="text" class="form-control" placeholder="Email">
+            </div>
+            <div class="form-group">
+              <textarea name="message" id="message" cols="30" rows="10" placeholder="Proyecto"
+                class="form-control"></textarea>
+            </div>
+            <div class="text-center" id="btnEnviar" style="margin-top: 5%;">
+              <a href="#" class="cta" onclick="sendForm()">
+                <span>Enviar</span>
+                <svg width="13px" height="10px" viewBox="0 0 13 10">
+                  <path d="M1,5 L11,5"></path>
+                  <polyline points="8 1 12 5 8 9"></polyline>
+                </svg>
+              </a>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <p>
+            Queremos saber de tu proyecto, envíanos un mensaje contándonos que tienes pensado y pronto recibirás nuestra
+            respuesta con soluciones que te ayudarán a potenciar tus ideas al máximo.
+          </p>
+        </div>
       </div>
-    </section>
-    
-    <footer class="section_6">
-      <div class="row d-flex align-items-center" style="margin-right: 0;">
-       <div class="col-lg-3 col-md-12 col-sm-12 content-logo-footer text-center">
+    </div>
+  </section>
+
+  <footer class="section_6">
+    <div class="row d-flex align-items-center" style="margin-right: 0;">
+      <div class="col-lg-3 col-md-12 col-sm-12 content-logo-footer text-center">
         <img class="logo-shell img-fluid" src="img/logo.png">
- 
-       </div>
-       <div class="col-lg-6 col-md-12 col-sm-12">
-         <ul class="menu-footer d-flex justify-content-around">
-           <li>Nosotros</li>
-           <li>Servicios</li>
-           <li>Portafolio</li>
-           <li>Contacto</li>
-         </ul>
- 
-       </div>
-       <div class="col-lg-3 col-md-12 col-sm-12 icon-logos" >
+
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <ul class="menu-footer d-flex justify-content-around">
+          <li>Nosotros</li>
+          <li>Servicios</li>
+          <li>Portafolio</li>
+          <li>Contacto</li>
+        </ul>
+
+      </div>
+      <div class="col-lg-3 col-md-12 col-sm-12 icon-logos">
         <img class="redes-logo" src="img/Icon awesome-facebook-f.png">
         <img class="redes-logo" src="img/Icon awesome-linkedin-in.png">
         <img class="redes-logo" src="img/Icon ionic-logo-whatsapp.png">
- 
-       </div>
 
       </div>
-     <div class="tyc">
-     <p id="tyc-footer">Derechos Reservados ShellZero S.A. de C.V. Prohibida su Reproducción Total o Parcial. Todo el material, incluyendo imágenes, texto, ilustraciones, diseños, íconos, fotografías, programas, videos y cualquier otro material parte de este sitio constituyen derechos de autor, marcas, marcas tridimensionales y en general, propiedad intelectual de, controlada por o licenciada a ShellZero S.A. de C.V. y sus empresas afiliadas, o bien corresponden a terceros que 
-       han licenciado o concedido el uso de sus materiales a ShellZero S.A. de C.V., por lo que están protegidos por leyes mexicanas. El acceso a este sitio no otorga de ninguna forma, ni deberá entenderse como si otorgara licencia, cesión o autorización de los derechos de propiedad intelectual de ShellZero S.A. de C.V., sus empresas afiliadas, ni de los terceros propietarios de marcas, logos, nombres comerciales y cualquier otro contenido de este sitio. Precios 
-       y señales sujetos a cambio, previa autorización de la autoridad competente.</p>
 
-     </div>
-    </footer>
+    </div>
+    <div class="tyc">
+      <p id="tyc-footer">Derechos Reservados ShellZero S.A. de C.V. Prohibida su Reproducción Total o Parcial. Todo el
+        material, incluyendo imágenes, texto, ilustraciones, diseños, íconos, fotografías, programas, videos y cualquier
+        otro material parte de este sitio constituyen derechos de autor, marcas, marcas tridimensionales y en general,
+        propiedad intelectual de, controlada por o licenciada a ShellZero S.A. de C.V. y sus empresas afiliadas, o bien
+        corresponden a terceros que
+        han licenciado o concedido el uso de sus materiales a ShellZero S.A. de C.V., por lo que están protegidos por
+        leyes mexicanas. El acceso a este sitio no otorga de ninguna forma, ni deberá entenderse como si otorgara
+        licencia, cesión o autorización de los derechos de propiedad intelectual de ShellZero S.A. de C.V., sus empresas
+        afiliadas, ni de los terceros propietarios de marcas, logos, nombres comerciales y cualquier otro contenido de
+        este sitio. Precios
+        y señales sujetos a cambio, previa autorización de la autoridad competente.</p>
 
-    <script src="js/contacto.js" charset="utf-8"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>   
-    <script src="js/main.js"></script> 
-    <script src="js/formulario.js"></script> 
-  </body>
+    </div>
+  </footer>
+
+  <script src="js/contacto.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+  <script src="js/main.js"></script>
+  <script src="js/formulario.js"></script>
+</body>
+
 </html>
-

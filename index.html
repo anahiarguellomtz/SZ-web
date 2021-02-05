@@ -1,219 +1,249 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>ShellZero</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="css/style.scss" >
-    <link rel="stylesheet" href="css/main.css">
-    
-  </head>
-  <button type="button" id="mobile-nav-toggle"><i class="fa fa-bars"></i></button>
-  <header id="header" class="">
-    <div class="container">
-        <div id="logo" class="pull-left">
-            <a href="index.html"><img src="img/logo-sz.png"></a>
-        </div>
-        <nav id="nav-menu-container">
-            <ul class="nav-menu sf-js-enabled sf-arrows" style="touch-action: pan-y;">
-                <li class="menu-active"><a href="index.html">Inicio</a></li>
-                <li><a href="#services">Servicios</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="contacto.html">Contacto </a></li>
-            </ul>
-        </nav>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>ShellZero</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.scss">
+  <link rel="stylesheet" href="css/main.css">
+
+</head>
+<label for="active" id="mobile-nav-toggle"><i class="fa fa-bars"></i></label>
+<header id="header">
+  <div class="container">
+    <div id="logo" class="pull-left">
+      <a href="index.html"><img src="img/logo-sz.png"></a>
     </div>
-  </header>
+    <nav id="nav-menu-container">
+      <ul class="nav-menu sf-js-enabled sf-arrows" style="touch-action: pan-y;">
+        <li class="menu-active"><a href="index.html">Inicio</a></li>
+        <li><a href="#services">Servicios</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="contacto.html">Contacto </a></li>
+      </ul>
+    </nav>
 
-      <div id="jssor_1" class="slider">
-        <!-- Loading Screen -->
-        <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
-            <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="../svg/loading/static-svg/spin.svg" />
-        </div>
-        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:380px;overflow:hidden;">
-            <div>
-                <img data-u="image" src="img/slide-home/front-servicios.png" />
-            </div>
-            <div>
-                <img data-u="image" src="img/slide-home/back-servicios.png" />
-            </div>
-            <div>
-                <img data-u="image" src="img/slide-home/app-web-servicios.png" />
-            </div>
-            <div>
-                <img data-u="image" src="img/slide-home/soporte-asesoria-servicios.png" />
-            </div>
-            <div>
-                <img data-u="image" src="img/slide-home/ux-ui-servicios.png" />
-            </div>
-        </div>
-        <!-- Bullet Navigator -->
-        <div data-u="navigator" class="jssorb031" style="position:absolute;bottom:12px;right:12px;" data-autocenter="2" data-scale="0.5" data-scale-right="0.75">
-            <div data-u="prototype" class="i" style="width:12px;height:12px;">
-                <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
-                    <circle class="b" cx="8000" cy="8000" r="5800"></circle>
-                </svg>
-            </div>
-        </div>
-     </div>
+    <input type="checkbox" id="active">
+    <div class="wrapper">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#services">Servicios</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="contacto.html">Contacto </a></li>
+      </ul>
+  </div>
+</header>
 
-    <section class="section_3 container-fluid p-0">
-      <div  class="col-12 services">
-        <div class="text-center">
-          <h1>Soluciones tecnologicas</h1>
-          <h2>a tu medida</h2>
+<div id="jssor_1" class="slider">
+  <!-- Loading Screen -->
+  <div data-u="loading" class="jssorl-009-spin"
+    style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+    <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;"
+      src="../svg/loading/static-svg/spin.svg" />
+  </div>
+  <div data-u="slides"
+    style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:380px;overflow:hidden;">
+    <div>
+      <img data-u="image" src="img/slide-home/front-servicios.png" />
+    </div>
+    <div>
+      <img data-u="image" src="img/slide-home/back-servicios.png" />
+    </div>
+    <div>
+      <img data-u="image" src="img/slide-home/app-web-servicios.png" />
+    </div>
+    <div>
+      <img data-u="image" src="img/slide-home/soporte-asesoria-servicios.png" />
+    </div>
+    <div>
+      <img data-u="image" src="img/slide-home/ux-ui-servicios.png" />
+    </div>
+  </div>
+  <!-- Bullet Navigator -->
+  <div data-u="navigator" class="jssorb031" style="position:absolute;bottom:12px;right:12px;" data-autocenter="2"
+    data-scale="0.5" data-scale-right="0.75">
+    <div data-u="prototype" class="i" style="width:12px;height:12px;">
+      <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+        <circle class="b" cx="8000" cy="8000" r="5800"></circle>
+      </svg>
+    </div>
+  </div>
+</div>
+
+<section class="section_3 container-fluid p-0">
+  <div class="col-12 services">
+    <div class="text-center">
+      <h1>Soluciones tecnologicas</h1>
+      <h2>a tu medida</h2>
+    </div>
+    <div class="row col-12 mt-5">
+      <div class="col-lg-5 col-md-5 col-sm-12">
+        <p class="mb-5" id="text-soluciones">Creamos soluciones ideales a la medida de las necesidades de tu empresa,
+          producto o negocio</p>
+        <div class="col-12">
+          <a href="#" class="cta col-lg-6 col-md-10 col-sm-12 offset-lg-6 offset-md-2">
+            <span>Descubre más</span>
+            <svg width="13px" height="10px" viewBox="0 0 13 10">
+              <path d="M1,5 L11,5"></path>
+              <polyline points="8 1 12 5 8 9"></polyline>
+            </svg>
+          </a>
         </div>
-        <div class="row col-12 mt-5">
-            <div class="col-lg-5 col-md-5 col-sm-12">
-                <p class="mb-5" id="text-soluciones">Creamos soluciones ideales a la medida de las necesidades de tu empresa, producto o negocio</p>
-                <div class="col-12">
-                  <a href="#" class="cta col-lg-6 col-md-10 col-sm-12 offset-lg-6 offset-md-2">
-                    <span>Descubre más</span>
-                    <svg width="13px" height="10px" viewBox="0 0 13 10">
-                      <path d="M1,5 L11,5"></path>
-                      <polyline points="8 1 12 5 8 9"></polyline>
-                    </svg>
-                  </a>
-                </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 ml-2 section_3_img">
+        <img class="section_3_img" src="img/innovacion-tecnologica-shellzero.gif">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section_2 container-fluid">
+  <div class="d-flex flex-column text-center">
+    <div>
+      <h1>Así es como lo hacemos</h1>
+    </div>
+    <div class="embed-responsive embed-responsive-16by9 col-12">
+      <iframe src="https://www.youtube.com/embed/ifAnJbw5Va8"
+        style="padding-left: 5%;padding-right: 5%; max-height: 650px;" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+</section>
+
+</div>
+
+<div class="second-section  container-fluid">
+  <section class="section_4 p-0">
+    <div class="container section-4">
+
+      <div class="row align-items-center position-relative">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xsm-12">
+          <div class="d-flex flex-column services">
+            <div>
+              <h1 class="text-center">Valoramos y potenciamos tus ideas</h1>
+              <h2 class="text-right">te acompañamos hasta el final con</h2>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 ml-2 section_3_img">
-              <img class="section_3_img" src="img/innovacion-tecnologica-shellzero.gif">
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+          <div class="content section_4_img">
+            <img class="section_4_img" src="img/soporte3.gif">
+            <h3 class="mt-5" style="text-align: center;" id="text-skills-skill">Soporte</h3>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+          <div class="content section_4_img">
+            <img class="section_4_img" src="img/asesoria.gif">
+            <h3 class="mt-5" style="text-align: center;" id="text-skills-skill">Asesoría</h3>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+          <div class="content section_4_img">
+            <img class="section_4_img" src="img/diseno2.gif">
+            <h3 class="mt-5" style="text-align: center;" id="text-skills-skill">Diseño</h3>
+          </div>
+        </div>
+        <div class="col-lg-12 col-sm-12">
+          <div class="content mb-5">
+            <p class="mt-4" id="text-waitu">Nuestro objetivo es elevar tus ideas al máximo y hacerlas realidad, por eso
+              contamos con un amplio equipo de profesionales que te apoyarán en todo lo momento</p>
+          </div>
+        </div>
+        <div class="col-lg-12 col-sm-12">
+
+          <div class="text-center">
+            <a href="#" class="cta">
+              <span>Nuestros servicios</span>
+              <svg width="13px" height="10px" viewBox="0 0 13 10">
+                <path d="M1,5 L11,5"></path>
+                <polyline points="8 1 12 5 8 9"></polyline>
+              </svg>
+            </a>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section_5 container-fluid p-0">
+    <div class="col-12 services">
+      <div class="text-center">
+        <h1>Te estamos esperando</h1>
+      </div>
+      <div class="row col-12 mt-5">
+        <div class="col-lg-6 col-md-6 col-sm-12 ml-2">
+          <img class="img-fluid" src="img/team-shellzero.gif">
+        </div>
+        <div class="col-lg-5 col-md-5 col-sm-12">
+          <p class="mb-5" id="text-waitu">Todo un equipo de profesionales trabajando para brindar soluciones integrales
+            e innovadoras</p>
+          <div class="col-12">
+            <a href="contacto.html" class="cta col-lg-6 col-md-10 col-sm-12 offset-lg-6 offset-md-2">
+              <span>Contáctanos</span>
+              <svg width="13px" height="10px" viewBox="0 0 13 10">
+                <path d="M1,5 L11,5"></path>
+                <polyline points="8 1 12 5 8 9"></polyline>
+              </svg>
+            </a>
+
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
+</div>
 
-        <section class="section_2 container-fluid">
-          <div class="d-flex flex-column text-center">
-            <div>
-              <h1>Así es como lo hacemos</h1>
-            </div>
-            <div class="embed-responsive embed-responsive-16by9 col-12">
-              <iframe src="https://www.youtube.com/embed/ifAnJbw5Va8" style="padding-left: 5%;padding-right: 5%; max-height: 650px;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-        </section>
+<footer class="section_6">
+  <div class="row d-flex align-items-center" style="margin-right: 0;">
+    <div class="col-lg-3 col-md-12 col-sm-12 content-logo-footer text-center">
+      <img class="logo-shell img-fluid" src="img/logo.png">
+
+    </div>
+    <div class="col-lg-6 col-md-12 col-sm-12">
+      <ul class="menu-footer d-flex justify-content-around">
+        <li>Nosotros</li>
+        <li>Servicios</li>
+        <li>Portafolio</li>
+        <li>Contacto</li>
+      </ul>
+
+    </div>
+    <div class="col-lg-3 col-md-12 col-sm-12 icon-logos">
+      <img class="redes-logo" src="img/Icon awesome-facebook-f.png">
+      <img class="redes-logo" src="img/Icon awesome-linkedin-in.png">
+      <img class="redes-logo" src="img/Icon ionic-logo-whatsapp.png">
 
     </div>
 
-    <div class="second-section  container-fluid">
-      <section class="section_4 p-0">
-        <div class="container section-4">
-                    
-          <div class="row align-items-center position-relative">
-              <div class="col-lg-12 col-md-12 col-sm-12 col-xsm-12">
-                <div class="d-flex flex-column services">
-                  <div>
-                    <h1 class="text-center">Valoramos y potenciamos tus ideas</h1>
-                    <h2 class="text-right">te acompañamos hasta el final con</h2>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-sm-12">
-                  <div class="content section_4_img">
-                      <img class="section_4_img" src="img/soporte3.gif">
-                      <h3 class="mt-5" style="text-align: center;" id="text-skills-skill">Soporte</h3>
-                  </div>
-              </div>
-              <div class="col-lg-4 col-sm-12">
-                  <div class="content section_4_img">
-                      <img class="section_4_img" src="img/asesoria.gif">
-                      <h3 class="mt-5" style="text-align: center;" id="text-skills-skill">Asesoría</h3>
-                  </div>
-              </div>
-              <div class="col-lg-4 col-sm-12">
-                  <div class="content section_4_img">
-                      <img class="section_4_img" src="img/diseno2.gif">
-                      <h3 class="mt-5" style="text-align: center;" id="text-skills-skill">Diseño</h3>
-                  </div>
-              </div>
-              <div class="col-lg-12 col-sm-12">
-                  <div class="content mb-5">
-                      <p class="mt-4" id="text-waitu">Nuestro objetivo es elevar tus ideas al máximo y hacerlas realidad, por eso contamos con un amplio equipo de profesionales que te apoyarán en todo lo momento</p>
-                  </div>
-              </div>
-              <div class="col-lg-12 col-sm-12">
-            
-                  <div class="text-center">
-                    <a href="#" class="cta">
-                      <span>Nuestros servicios</span>
-                      <svg width="13px" height="10px" viewBox="0 0 13 10">
-                        <path d="M1,5 L11,5"></path>
-                        <polyline points="8 1 12 5 8 9"></polyline>
-                      </svg>
-                    </a>
-                  </div>
-                
-                  
-              </div>  
-          </div>
-        </div>
-      </section>
-  
-      <section class="section_5 container-fluid p-0">
-        <div  class="col-12 services">
-          <div class="text-center">
-            <h1>Te estamos esperando</h1>
-          </div>
-          <div class="row col-12 mt-5">
-              <div class="col-lg-6 col-md-6 col-sm-12 ml-2">
-                  <img class="img-fluid" src="img/team-shellzero.gif">
-              </div>
-              <div class="col-lg-5 col-md-5 col-sm-12">
-                  <p class="mb-5" id="text-waitu">Todo un equipo de profesionales trabajando para brindar soluciones integrales e innovadoras</p>
-                  <div class="col-12">
-                    <a href="contacto.html" class="cta col-lg-6 col-md-10 col-sm-12 offset-lg-6 offset-md-2">
-                      <span>Contáctanos</span>
-                      <svg width="13px" height="10px" viewBox="0 0 13 10">
-                        <path d="M1,5 L11,5"></path>
-                        <polyline points="8 1 12 5 8 9"></polyline>
-                      </svg>
-                    </a>
-  
-                  </div>
-              </div>
-          </div>
-        </div>
-      </section>
-    </div>
-  
-      <footer class="section_6">
-        <div class="row d-flex align-items-center" style="margin-right: 0;">
-         <div class="col-lg-3 col-md-12 col-sm-12 content-logo-footer text-center">
-          <img class="logo-shell img-fluid" src="img/logo.png">
-   
-         </div>
-         <div class="col-lg-6 col-md-12 col-sm-12">
-           <ul class="menu-footer d-flex justify-content-around">
-             <li>Nosotros</li>
-             <li>Servicios</li>
-             <li>Portafolio</li>
-             <li>Contacto</li>
-           </ul>
-   
-         </div>
-         <div class="col-lg-3 col-md-12 col-sm-12 icon-logos" >
-          <img class="redes-logo" src="img/Icon awesome-facebook-f.png">
-          <img class="redes-logo" src="img/Icon awesome-linkedin-in.png">
-          <img class="redes-logo" src="img/Icon ionic-logo-whatsapp.png">
-   
-         </div>
- 
-        </div>
-       <div class="tyc">
-       <p id="tyc-footer">Derechos Reservados ShellZero S.A. de C.V. Prohibida su Reproducción Total o Parcial. Todo el material, incluyendo imágenes, texto, ilustraciones, diseños, íconos, fotografías, programas, videos y cualquier otro material parte de este sitio constituyen derechos de autor, marcas, marcas tridimensionales y en general, propiedad intelectual de, controlada por o licenciada a ShellZero S.A. de C.V. y sus empresas afiliadas, o bien corresponden a terceros que 
-         han licenciado o concedido el uso de sus materiales a ShellZero S.A. de C.V., por lo que están protegidos por leyes mexicanas. El acceso a este sitio no otorga de ninguna forma, ni deberá entenderse como si otorgara licencia, cesión o autorización de los derechos de propiedad intelectual de ShellZero S.A. de C.V., sus empresas afiliadas, ni de los terceros propietarios de marcas, logos, nombres comerciales y cualquier otro contenido de este sitio. Precios 
-         y señales sujetos a cambio, previa autorización de la autoridad competente.</p>
- 
-       </div>
-      </footer>
-    
-      <script type="text/javascript" src="js/jssor.slider.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>   
-      <script src="js/main.js"></script> 
-      <script src="js/slider.js"></script> 
-  </body>
+  </div>
+  <div class="tyc">
+    <p id="tyc-footer">Derechos Reservados ShellZero S.A. de C.V. Prohibida su Reproducción Total o Parcial. Todo el
+      material, incluyendo imágenes, texto, ilustraciones, diseños, íconos, fotografías, programas, videos y cualquier
+      otro material parte de este sitio constituyen derechos de autor, marcas, marcas tridimensionales y en general,
+      propiedad intelectual de, controlada por o licenciada a ShellZero S.A. de C.V. y sus empresas afiliadas, o bien
+      corresponden a terceros que
+      han licenciado o concedido el uso de sus materiales a ShellZero S.A. de C.V., por lo que están protegidos por
+      leyes mexicanas. El acceso a este sitio no otorga de ninguna forma, ni deberá entenderse como si otorgara
+      licencia, cesión o autorización de los derechos de propiedad intelectual de ShellZero S.A. de C.V., sus empresas
+      afiliadas, ni de los terceros propietarios de marcas, logos, nombres comerciales y cualquier otro contenido de
+      este sitio. Precios
+      y señales sujetos a cambio, previa autorización de la autoridad competente.</p>
+
+  </div>
+</footer>
+
+<script type="text/javascript" src="js/jssor.slider.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+<script src="js/main.js"></script>
+<script src="js/slider.js"></script>
+</body>
+
 </html>
-
